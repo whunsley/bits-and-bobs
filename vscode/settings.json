@@ -1,0 +1,30 @@
+{
+    "workbench.iconTheme": "vscode-icons",
+    "editor.minimap.enabled": false,
+    "window.zoomLevel": 0,
+    "window.restoreFullscreen": true,
+
+    // CPP settings
+    "C_Cpp.intelliSenseEngine": "Default",
+
+    // VIM settings
+    "vim.disableAnnoyingNeovimMessage": true,
+    "vim.insertModeKeyBindings": [
+        {
+            "before": ["j","j"],
+            "after": ["<Esc>"]
+        }
+    ],
+
+    // GIT lens settings
+    "gitlens.advanced.messages": {
+        "suppressCommitHasNoPreviousCommitWarning": false,
+        "suppressCommitNotFoundWarning": false,
+        "suppressFileNotUnderSourceControlWarning": false,
+        "suppressGitVersionWarning": false,
+        "suppressLineUncommittedWarning": false,
+        "suppressNoRepositoryWarning": false,
+        "suppressUpdateNotice": false,
+        "suppressWelcomeNotice": true
+    }
+}
